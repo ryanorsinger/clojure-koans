@@ -37,4 +37,4 @@
           (fn [n] (* n n))))
 
   "But they are often better written using the names of functions"
-  (= 25 (#(square %) 5))
+  (= 25 (#(square %) 5)))
